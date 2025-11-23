@@ -1,0 +1,11 @@
+let target = document.getElementById("target");
+let firstItem = document.createElement("li");
+firstItem.textContent = "First item";
+target.appendChild(firstItem);
+let secondItem = document.createElement("li");
+secondItem.textContent = "Second item";
+secondItem.classList.add("my-item");
+target.appendChild(secondItem);
+let thirdItem = document.createElement("li");
+thirdItem.textContent = "Third item";
+target.appendChild(thirdItem);
